@@ -28,7 +28,7 @@ $factory = new FactoryDefault();
 $converter = $factory->getConverter();
 
 $range = new Range(1, 3456);
-$regex = sprintf('/^(%s)$', $converter->toRegex($range));
+$regex = sprintf('/^(%s)$/', $converter->toRegex($range));
 // /^[1-9]|[1-9][0-9]|[1-9][0-9]{2}|[1-2][0-9]{3}|3[0-3][0-9]{2}|34[0-4][0-9]|345[0-6]$/
 $matchesRegex = (bool) preg_match($regex, 0); // false
 $matchesRegex = (bool) preg_match($regex, 2014); // true
