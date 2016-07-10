@@ -41,23 +41,19 @@ final class ConverterDefaultTest extends PHPUnit_Framework_TestCase
 
     public function test_it_generates_valid_regexes()
     {
-        $this->verifyRange(10331, 20381, 0, 99999);
         $this->verifyRange(10031, 20081, 0, 59999);
         $this->verifyRange(10000, 20000, 0, 59999);
-        $this->verifyRange(10301, 20101, 0, 99999);
         $this->verifyRange(102, 111, 0, 1000);
         $this->verifyRange(102, 110, 0, 1000);
         $this->verifyRange(102, 130, 0, 1000);
-        $this->verifyRange(4173, 7981, 0, 99999);
         $this->verifyRange(3, 7, 0, 99);
         $this->verifyRange(1, 9, 0, 1000);
-        $this->verifyRange(1000, 8632, 0, 99999);
         $this->verifyRange(1030, 20101, 0, 99999);
         $this->verifyRange(13, 8632, 0, 10000);
         $this->verifyRange(9, 11, 0, 100);
         $this->verifyRange(19, 21, 0, 100);
         $this->verifyRange(90, 98009, 0, 98999);
-        $this->verifyRange(999, 10000, 1, 20000);
+        $this->verifyRange(999, 10000, 1, 10000);
     }
 
     private function verifyRange($min, $max, $from, $to)
