@@ -12,7 +12,6 @@ final class ConverterCachedTest extends PHPUnit_Framework_TestCase
             ->disableOriginalConstructor()
             ->disableOriginalClone()
             ->disableArgumentCloning()
-            ->disallowMockingUnknownTypes()
             ->getMock();
     }
 
