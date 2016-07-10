@@ -6,11 +6,21 @@ use PHPUnit_Framework_TestCase;
 
 final class ConverterCachedTest extends PHPUnit_Framework_TestCase
 {
+    private function mock($className)
+    {
+        return $this->getMockBuilder($className)
+            ->disableOriginalConstructor()
+            ->disableOriginalClone()
+            ->disableArgumentCloning()
+            ->disallowMockingUnknownTypes()
+            ->getMock();
+    }
+
     public function test_it_caches_calculated_regexes()
     {
         $range = new Range(1, 2);
 
-        $mock = $this->createMock(Converter::class);
+        $mock = $this->mock(Converter::class);
         $mock->expects($this->once())
              ->method('toRegex')
              ->with($this->equalTo($range))
