@@ -58,17 +58,17 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/hansott/numeric-range-regex.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/hansott/range-regex.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/hansott/numeric-range-regex/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/hansott/numeric-range-regex.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/hansott/numeric-range-regex.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/hansott/numeric-range-regex.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/hansott/range-regex/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/hansott/range-regex.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/hansott/range-regex.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/hansott/range-regex.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/hansott/numeric-range-regex
-[link-travis]: https://travis-ci.org/hansott/numeric-range-regex
-[link-scrutinizer]: https://scrutinizer-ci.com/g/hansott/numeric-range-regex/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/hansott/numeric-range-regex
-[link-downloads]: https://packagist.org/packages/hansott/numeric-range-regex
+[link-packagist]: https://packagist.org/packages/hansott/range-regex
+[link-travis]: https://travis-ci.org/hansott/range-regex
+[link-scrutinizer]: https://scrutinizer-ci.com/g/hansott/range-regex/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/hansott/range-regex
+[link-downloads]: https://packagist.org/packages/hansott/range-regex
 [link-author]: https://github.com/hansott
 [link-contributors]: ../../contributors
