@@ -7,8 +7,15 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-
 Returns a regex-compatible range from two numbers, min and max. Inspired by [jonschlinkert/to-regex-range](https://github.com/jonschlinkert/to-regex-range).
+
+## Why would I need this?
+
+That's a good question. You normally would write something like `if ($x > $min && $x < $max) { ... }`, right?
+
+Say you want to build a [glob](https://secure.php.net/manual/en/function.glob.php) like function yourself.
+
+If your glob would support syntax like `foo/{1..5}.md` and you plan to do the matching using a regex pattern.. Well, this library can convert `1..5` to a regex.
 
 ## Install
 
