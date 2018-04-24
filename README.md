@@ -17,6 +17,8 @@ Say you want to build a [glob](https://secure.php.net/manual/en/function.glob.ph
 
 If your glob would support syntax like `foo/{1..5}.md` and you plan to do the matching using a regex pattern.. Well, this library can convert `1..5` to a regex.
 
+[Read More](https://github.com/micromatch/to-regex-range#convenience)
+
 ## Install
 
 Via Composer
